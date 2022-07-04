@@ -4,6 +4,13 @@ type Line struct {
 	S, R Vec
 }
 
+func (l *Line) String() string {
+	return fmt.Sprintf(
+		"%v + r * %v",
+		l.S.X, l.R.X
+	)
+}
+
 // LineFromTo returns a line from p to q
 //
 //	l: x = p + r * (q - p).
