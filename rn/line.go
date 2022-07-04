@@ -7,7 +7,7 @@ type Line struct {
 func (l *Line) String() string {
 	return fmt.Sprintf(
 		"%v + r * %v",
-		l.S.X, l.R.X
+		l.S.X, l.R.X,
 	)
 }
 
