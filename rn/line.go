@@ -1,5 +1,7 @@
 package rn
 
+import "fmt"
+
 type Line struct {
 	S, R Vec
 }
